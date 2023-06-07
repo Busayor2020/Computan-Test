@@ -1,0 +1,1 @@
+const OMB=document.getElementById('openModalBtn'),CMB=document.getElementById('closeModalBtn'),M=document.getElementById('modal');OMB.addEventListener('click',()=>M.style.display='block');CMB.addEventListener('click',()=>M.style.display='none');window.addEventListener('click',(e)=>{e.target===M&&(M.style.display='none')})

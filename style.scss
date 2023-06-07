@@ -1,0 +1,159 @@
+.text {
+    display: flex;
+  
+  }
+  
+  .txt1 {
+    padding: 10px;
+    width: 300px;
+    margin-right: 250px;
+    margin-left: 50px;
+  }
+  
+  .beauty {
+    color: orange;
+  }
+  .beauty3 {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    width: 10px;
+    transition: width 1s;
+  }
+  .beauty3:hover {
+    width: 30px;
+  }
+  .bead {
+    color: slateblue;
+    font-family: Garamond, serif;
+    font-weight: 1000;
+  }
+  
+  .txt2 {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-weight: 600;
+  }
+  .for {
+    width: 172px;
+    transition: width 0.5s;
+    font-weight: 600;
+  }
+  .left {
+    display: flex;
+    color: orange;
+  }
+  .left:hover {
+    color: orange !important;
+  }
+  .for:hover {
+    width: 180px;
+  }
+  .forward {
+    font-size: 10px;
+    margin-top: 27px;
+    color: black;
+  }
+  
+  .image-wrapper {
+    display: flex;
+  }
+  
+  .img1 {
+    margin-left: 20px;
+    padding: 10px;
+    z-index: 5;
+    border-radius: 70px;
+  }
+  
+  .img2 {
+    margin-left: -145px;
+    padding: 10px;
+    z-index: 4;
+  }
+  
+  .img3 {
+    margin-left: -145px;
+    padding: 10px;
+    z-index: 3;
+  }
+  
+  .img4 {
+    margin-left: -145px;
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  .img5 {
+    margin-left: -145px;
+    padding: 10px;
+  }
+  
+  .container {
+    position: relative;
+    width: 50%;
+    z-index: 4;
+  }
+  .container2 {
+    position: relative;
+    width: 50%;
+    margin-left: -220px;
+    z-index: 3;
+  }
+  .container3 {
+    position: relative;
+    width: 50%;
+    margin-left: -220px;
+    z-index: 2;
+  }
+  .container4 {
+    position: relative;
+    width: 50%;
+    margin-left: -220px;
+    z-index: 1;
+  }
+  .container5 {
+    position: relative;
+    width: 50%;
+    margin-left: -220px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  .container3:hover .overlay {
+    opacity: 1;
+  }
+  .container4:hover .overlay {
+    opacity: 1;
+  }
+  .container5:hover .overlay {
+    opacity: 1;
+  }
+  
+  .footer-center {
+    display: flex;
+    justify-content: center;
+  }  
